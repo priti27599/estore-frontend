@@ -1,0 +1,17 @@
+@mixin transition($property, $duration){
+    transition-property: $property;
+    transition-duration: $duration;
+}
+
+@mixin style-reset-a-li{
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color:black;
+        }
+    }
+    li{
+        list-style-type: none;
+    }
+}

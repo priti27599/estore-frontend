@@ -1,0 +1,58 @@
+@import '../../style//sass/mixins';
+
+@include style-reset-a-li;
+
+
+.prod{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .product-card{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        box-shadow: 3px 1px 14px 0px lightgray;
+        border-radius: 0.6em;
+        height: 41em;
+        width: 25em;
+        .product-image-container{
+            display: flex;
+            justify-content: center;
+           img{
+            height: 31em;
+            width: 21em;
+            margin: 1%;
+            border-radius: 0.4em;
+           }
+        }
+
+        .product-info{
+            text-align: center;
+            padding: 1em;
+
+            h5{
+                font-weight: 700;
+            }
+
+            .product-price{
+                margin: 0;
+                font-weight: 400;
+                font-size: 1.2em;
+            }
+        }
+
+        .product-rating{
+            display: flex;
+            margin-top:0.8em;
+            justify-content: center;
+
+            i{
+                color: gold;
+                font-size: small;
+                border:none;
+                width: 1.7em;
+            }
+        }
+    }
+}
+
