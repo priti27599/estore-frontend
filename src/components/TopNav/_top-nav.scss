@@ -13,6 +13,7 @@
     width: 23%;
   }
   
+  
   .row {
     display: flex;
   }
@@ -83,4 +84,25 @@
   
   .cart-wishlist ul{
     display: flex;
+  }
+
+  .list-icon{
+
+    #cart-item-count{
+      border-radius: 50%;
+      background-color: gold;
+      position: absolute;
+      height: 1em;
+      width: 1em;
+      left: 92.5%;
+      top: 2.3%;
+      text-align: center;
+      line-height: 90%;
+
+      p{
+        font-size: 0.8em;
+        font-weight: 600;
+        color: black;
+      }
+    }
   }
